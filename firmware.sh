@@ -317,7 +317,7 @@ Please select the number for the correct option from the list below:"
 	fi
 
 	# create backup if existing firmware is stock
-	if [[ "$isStock" = "false" ]]; then
+	if [[ "$isStock" = "true" ]]; then
 		if [[ "$isEOL" = "false" ]]; then
 			REPLY=y
 		else
